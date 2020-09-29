@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/flGesamt">
+
+    <ImageView
+        android:id="@+id/ivZiel"
+        app:srcCompat="@drawable/rot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/zielString"/>
+
+    <TextView
+        android:id="@+id/tvPunkte"
+        android:text="@string/tvPunkte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textGroesse"
+        android:textColor="@color/textFarbe"
+        android:layout_marginLeft="@dimen/abstandLinks"
+        android:layout_marginStart="@dimen/abstandLinks"/>
+
+    <TextView
+        android:id="@+id/tvZeit"
+        android:text="@string/tvZeit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textGroesse"
+        android:textColor="@color/textFarbe"
+        android:layout_gravity="end"/>
+
+</FrameLayout>

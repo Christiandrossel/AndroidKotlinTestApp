@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--SquareActivity-->
+    <dimen name="textGroesse">20sp</dimen>
+    <dimen name="abstand">5dp</dimen>
+    <dimen name="ivBild0Left">100dp</dimen>
+    <dimen name="ivBild0Top">50dp</dimen>
+
+    <!-- Square game Activity -->
+    <dimen name="abstandLinks">50dp</dimen>
+</resources>

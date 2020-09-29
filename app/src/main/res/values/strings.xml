@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Meine Test App</string>
+    <string name="entriesButton_name">Einträge</string>
+    <string name="newEntriesButton_name">Neuer Eintrag</string>
+    <string name="exitButton_name">App Schließen</string>
+    <string name="settingButton_Name">Einstellungen</string>
+    <string name="title_activity_list_entries">ListEntriesActivity</string>
+    <string name="ButtonSave">Speichern</string>
+
+    <!-- New Entrie Activity -->
+    <string name="title">Titel</string>
+    <string name="description">Beschreibung</string>
+    <string name="upload_picture">Bild hochladen</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- SquareActivity -->
+    <string name="buNeuString">Neu</string>
+    <string name="ivBildString">Bild</string>
+    <string name="tvAusgabeString">Ausgabe</string>
+
+    <!-- Square game Activity -->
+    <string name="zielString">Ziel</string>
+    <string name="tvPunkte">Punkte</string>
+    <string name="tvZeit">60 sec.</string>
+
+    <!-- Speichern key value -->
+    <string name="keyValueName">Key Value Speicher</string>
+    <string name="explainKeyValue">Dies ist ein Beispiel zur abspeicherung von Daten. Die Daten werden in einer Datei "daten.pr"
+        immer mit einem Schlüssel und einem Wert abgelegt, vergleichbar mit einer Key-Value-Datenbank.\n
+        In diesen Beispiel wird ein Integer, ein Float und ein String gespeichert.
+    </string>
+    <string name="ButtonWrite">Schreiben</string>
+    <string name="ButtonRead">Lesen</string>
+    <string name="ButtonDeleteOne">Löschen einzeln</string>
+    <string name="ButtonDeleteAll">Löschen alle</string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
